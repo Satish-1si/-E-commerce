@@ -1,0 +1,18 @@
+#otpgroup {
+    padding: 10px;
+    font-size: 16px;
+    border:none;
+    border-radius: 5px;
+    width: 200px;
+    
+
+  }
+
+  /* Style the options */
+#otpgroup option {
+    display: block;
+    color: #030303;
+    font-size: 14px;
+    font-weight: bold;
+    padding:0px 20px;
+  }

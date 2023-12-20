@@ -1,0 +1,291 @@
+@media screen and (max-width: 599px) {
+    .Box-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding:5px;
+
+    }
+    .Box-2{
+        padding:15px;
+        border-bottom: solid;
+    }
+   
+    .Box-3{
+        text-align: left;
+        padding:15px;
+        border-bottom: solid;   
+    }
+    .payicons{
+        width: 200px;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding-bottom: 5px;
+        align-items: center;
+        padding: 5px 0px;
+    }
+    .payicons5{
+        width: 200px;
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-start;
+        align-items:center;
+        padding-bottom: 5px;
+        padding: 5px 0px;
+        
+        
+    }
+    .payicons5 *{
+        padding:0px 3px;
+    }
+    .payiconsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding:15px;
+        margin-bottom:5px;
+        border-bottom: solid;
+    }
+    .payiconsContainer h1{
+        margin-left:3px;
+    }
+    .FooterContainer{
+      font-family: sans-serif;
+      background-color: black;
+    }
+    .section1_Container{
+        display: flex;
+        justify-content: flex-start;
+        padding: 15px 3px;
+       
+        
+    }
+    .section1_Container input{
+        width:50vw;
+        height:40px;
+        border: solid;
+        margin-right:2px;
+        color:black;
+        
+    }
+    .section1_Container button{
+        width:130px;
+        margin-left:3px;
+        text-align: center;
+        border: solid grey;
+        border-radius: 7px;
+        
+
+    }
+    .topsectionFooter,.BottomsectionFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: rgba(255, 255, 255, 1);       
+    }
+    hr{
+      display: none;
+    }
+    h1{
+        font-weight: bold;
+    }
+}
+/* small devices */
+@media screen and (min-width: 600px) and (max-width: 959px) {
+    .Box-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 3px;
+        margin-right:5px ;
+    }
+    .Box-2{
+        padding:10px ;
+        margin-left:20px;
+
+    }
+    .Box-3{
+        text-align: left;
+        padding:5px;
+    }
+    .payicons{
+        width: 200px;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding-bottom: 5px;
+        align-items: center;
+        padding: 5px 0px;
+    }
+    .payicons5{
+        width: 200px;
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-start;
+        align-items:center;
+        padding-bottom: 5px;
+        padding: 5px 0px;
+        
+        
+    }
+    .payicons5 *{
+        padding:0px 3px;
+    
+       
+    }
+    .payiconsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 3px;
+        align-items: flex-end;
+    }
+    .payiconsContainer h1{
+        margin-left:3px;
+
+    }
+    .FooterContainer{
+      font-family: sans-serif;
+      background-color: black;
+
+    }
+    .section1_Container{
+        display: flex;
+        width: fit-content;
+       
+        
+    }
+    .section1_Container input{
+        width:25vw;
+        height:50px;
+        margin-right:2px;
+        color:black;
+        
+    }
+    .section1_Container button{
+        width:130px;
+        margin:1px;
+        text-align: center;
+        border: solid grey;
+        border-radius: 7px;
+
+    }
+    .topsectionFooter,.BottomsectionFooter{
+        display: flex;
+       justify-content: space-between;
+        color: rgba(255, 255, 255, 1);
+        padding:30px; 
+    }
+   
+    hr{
+        margin:3px 10px;
+        border: solid white 1px;
+    }
+    h1{
+        font-weight: bold;
+    }
+}
+
+/* small devices */
+
+/* medium and large devices */
+@media screen and (min-width: 960px) and (max-width: 1900px) {
+	.Box-1{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding:5px
+    }
+    .Box-2{
+        width: fit-content;
+        padding:5px
+    }
+    .Box-3{
+        width: fit-content;
+        text-align: left;
+        padding:5px
+    }
+    .payicons{
+        width: 200px;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding-bottom: 5px;
+        align-items: center;
+        padding: 5px 0px;
+    }
+    .payicons5{
+        width: 200px;
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-start;
+        align-items:center;
+        padding-bottom: 5px;
+        padding: 5px 0px;
+        
+        
+    }
+    .payicons5 *{
+        padding:0px 3px;
+    
+       
+    }
+    .payiconsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 3px;
+        align-items: flex-end;
+    }
+    .payiconsContainer h1{
+        margin-left:3px;
+    }
+    .FooterContainer{
+      font-family: sans-serif;
+      background-color: black;
+    }
+    .section1_Container{
+        display: flex;
+        width: fit-content;
+       
+        
+    }
+    .section1_Container input{
+        width:25vw;
+        height:50px;
+        border: solid;
+        margin-right:2px;
+        color: black;
+
+        
+    }
+    .section1_Container button{
+        width:130px;
+        margin:1px;
+        text-align: center;
+        border: solid grey;
+        border-radius: 7px;
+
+    }
+    .topsectionFooter,.BottomsectionFooter{
+        display: flex;
+        justify-content: space-around;
+        padding:30px;
+        color: rgba(255, 255, 255, 1);
+       
+    }
+    hr{
+        margin:3px 10px;
+        border: solid white 1px;
+    }
+    h1{
+        font-weight: bold;
+    }
+    
+}
