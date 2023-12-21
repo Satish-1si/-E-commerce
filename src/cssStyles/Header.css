@@ -74,6 +74,10 @@
     .header .sub_container-1{
         height:80px ; 
         margin-top:2%;
+       
+    }
+    .header .sub_container-2{
+        display: none;
     }
    
     .showContries{

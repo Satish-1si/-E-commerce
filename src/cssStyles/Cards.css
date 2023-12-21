@@ -11,12 +11,11 @@
     }
     .card{
         height:450px;
-        width:400px;
+        width:95%;
         margin: 2px;
         box-shadow: 1px 1px 5px rgb(120, 118, 118);
         position:relative;
         padding: 6px;
-      
 
     }
     .card img{
@@ -119,7 +118,7 @@
         
     }
     .card{
-        height:400px;
+        height:350px;
         width: 32%;
         margin: 2px;
         box-shadow: 1px 1px 5px rgb(192, 190, 190);
@@ -153,6 +152,7 @@
         padding:0px;
         height:30%;
         padding: 5px;
+        
     
     }
 	
